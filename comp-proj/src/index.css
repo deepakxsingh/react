@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.main{
+  
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: whitesmoke;
+  gap: 40px;
+  -ms-flex-item-align: center;
+}
+
+
+.card{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  gap: 0px;
+  width: 300px;
+  height: 350px;
+
+
+}
+.card .logo-save{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .logo-save img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+.card .logo-save button{
+  background-color: #fffdfd;
+  border: 1px solid #7c7b7b1a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #0000009c;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight:600;
+}
+.card .logo-save button:hover{
+  background-color: #0000003b;
+  color: rgb(0, 0, 0);
+  border:none;
+}
+.card .logo-save button img{
+  width: 15px;
+  height: 15px;
+  
+
+}
+.card .logo-save button:hover img{
+  color: rgb(0, 0, 0);
+  background-color: #0000003b;
+}
+
+.main .name {
+  margin: 16px 0px 2px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.main .name h4{
+  font-size: 20px;
+  font-weight: 550;
+}
+.main .name h5{
+  font-size: 11px;
+  color: #42404094;
+}
+
+.main h2{
+  font-size: 25px;
+  color: #030303f3;
+  
+}
+
+.main .moreinfo{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 15px 0px;
+  
+
+}
+.main .moreinfo span{
+ background-color: #b9b7b749;
+ color: rgba(3, 3, 3, 0.616);
+ font-size: 14px;
+ font-weight: 550;
+ padding: 5px 10px;
+ border-radius: 5px;  
+
+}
+.main .belowinfo{
+  border-top: 1px solid #00000028;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.main .belowinfo .money-location{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.main .belowinfo p{
+  margin-top: 2px;
+  padding: 2px;
+  font-size: small;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main .belowinfo button{
+  padding: 0px 30px;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+}
